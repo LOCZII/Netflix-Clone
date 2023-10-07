@@ -3,9 +3,212 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+        <!--Title-->
+        <title>Netflix Clone</title>
 </head>
 <body>
-    
+    <!--Header-->
+    <div class="header">
+        <nav>
+            
+            <!--Logo-->
+            <img src="img/logo.png" class="logo">
+
+                <!--Language button-->
+                <div>
+                    <button class="language-btn">English<img src="img/down-icon.png"></button>
+
+                    <!--Sign In button-->
+                    <button>Sign In</button>
+                </div>
+        </nav>
+
+            <!--Header Content-->
+            <div class="header-content">
+                <h1>Unlimited movies, TV shows and more.</h1>
+                <h3>Watch anywhere. Cancel anytime.</h3>
+                <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+                    <!--Email, placeholder & button-->
+                    <form class="email-signup">
+                        <input type="email" placeholder="email adress" required>
+                        <button class="start-btn" type="submit">Get Started<img src="img/right-icon.png"></button>
+                    </form>
+            </div>
+    </div>
+
+        <!--Features-->
+        <div class="features">
+
+            <!--Row 1-->
+            <div class="row">
+
+                <!--Text Column 1-->
+                <div class="text-col">
+                    <h2>Enjoy on your TV.</h2>
+                    <p>Watch on smart TV's, PlayStation. Xbox, Chromecast Apple TV, Blu-ray players and more.</p>
+                </div>
+
+                    <!--Img Column 1-->
+                    <div class="img-col">
+                        <img src="img/feature-1.png">
+                    </div>
+            </div>
+
+                <!--Row 2-->
+                <div class="row">
+
+                    <!--Img Column 2-->
+                    <div class="img-col">
+                        <img src="img/feature-2.png">
+                    </div>
+
+                        <!--Text Column 2-->
+                        <div class="text-col">
+                            <h2>Download your shows to watch offline.</h2>
+                            <p>Save your favourites easily and always have something to watch.</p>
+                        </div>
+                </div>
+
+            <!--Row 3-->
+            <div class="row">
+
+                <!--Text Column 3-->
+                <div class="text-col">
+                    <h2>Watch everywhere.</h2>
+                    <p>Stream ulimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                </div>
+
+                    <!--Img Column 3-->
+                    <div class="img-col">
+                        <img src="img/feature-3.png">
+                    </div>
+            </div>
+
+                <!--Row 4-->
+                <div class="row">
+
+                    <!--Img Column 4-->
+                    <div class="img-col">
+                        <img src="img/feature-4.png">
+                    </div>
+
+                        <!--Text Column 4-->
+                        <div class="text-col">
+                            <h2>Create profiles for children.</h2>
+                            <p>Send children on adventures with their favourite characters in a space made just for them - free with your membership.</p>
+                        </div>
+                    </div>
+        </div>
+
+    <!--FAQ-->
+    <div class="faq">
+        <h2>Frequently Asked Questions</h2>
+
+        <!--Accordion ul-->
+        <ul class="acc">
+
+            <!--Question & Answer-->
+            <li>
+                <input type="radio" name="acc" id="first">
+                <label for="first">What is Netflix?</label>
+                <div class="content">
+                    <p>Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, and more on
+                        thousands of internet-connected devices. You can watch as much as you want, whenever you want - all for one low monthly price.
+                        There's always something new to discover and new TV shows and movies are added every week!</p>
+                </div>
+            </li>
+
+                <!--Question & Answer-->    
+                    <li>
+                        <input type="radio" name="acc" id="second">
+                        <label for="second">How much does Netflix cost?</label>
+                        <div class="content">
+                            <p>Standard: $15.49 / month ( extra member slots ** can be added for $7.99 each / month) Premium: $19.99 / month( extra
+                                member slots ** can be added for $7.99 each / month) Note: *The Standard with ads plan may not be available through
+                                all third-party billing partners and packages. Please check with your provider to confirm availability.</p>
+                        </div>
+                    </li>
+
+            <!--Question & Answer-->
+            <li>
+                <input type="radio" name="acc" id="third">
+                <label for="third">How do I cancel?</label>
+                <div class="content">
+                    <p>Back to Help Home This is the only way to cancel your account and end your membership. Signing out of your account or deleting
+                        the Netflix app doesn't cancel your account. How to restart your Netflix account Billing and Payments How to change your plan
+                        Getting started with Netflix What is Netflix?</p>
+                </div>
+            </li>
+
+                <!--Question & Answer-->
+                <li>
+                    <input type="radio" name="acc" id="fifth">
+                    <label for="fifth">What can I watch on Netflix?</label>
+                    <div class="content">
+                        <p>TV Shows These days, the small screen has some very big things to offer. From sitcoms to dramas to travel and talk shows,
+                            these are all the best programs on TV. New Releases Beckham Lupin Everything Now Demon Slayer: Kimetsu no Yaiba ONE PIECE
+                            Super Pumped: The Battle for Uber Power Rangers Cosmic Fury The Great British Baking Show Django.</p>
+                    </div>
+                </li>
+
+            <!--Question & Answer-->
+            <li>
+                <input type="radio" name="acc" id="sixth">
+                <label for="sixth">Is Netflix good for kids?</label>
+                <div class="content">
+                    <p>Of course! Children & Family Movies Whether it's live-action or animated, there's nothing like a movie that's fun for the
+                        whole family -- kids, teens and grown-ups too! Popular on Netflix Megamind Kung Fu Panda; The Boss Baby Despicable;
+                        Me 2 Woody Woodpecker; Sing 2 Despicable Me; Trolls Minions; The Rise of Gru; Puss in Boots; The Last Wish Bee Movie.</p>
+                </div>
+            </li>
+        </ul>
+
+            <!--After FAQ, Before the footer-->
+            <small>Ready to watch? Enter your email to create or restart your membership.</small>
+
+                <!--Email, placeholder & button-->
+                <form class="email-signup">
+                    <input type="email" placeholder="email adress" required>
+                    <button class="start-btn" type="submit">Get Started<img src="img/right-icon.png"></button>
+                </form>
+    </div>
+
+        <!--Footer-->    
+        <div class="footer">
+            <h2>Questions? call 000-000-000-000</h2>
+
+                <!--Row columns-->
+                <div class="row">
+                    <div class="col">
+                        <a href="#">FAQ</a>
+                        <a href="#">Investor Relations</a>
+                        <a href="#">Privacy</a>
+                        <a href="#">Speed Test</a>
+                    </div>
+                        <div class="col">
+                            <a href="#">Help Center</a>
+                            <a href="#">Jobs</a>
+                            <a href="#">Cookies Preferences</a>
+                            <a href="#">Legal Notices</a>
+                        </div>
+                    <div class="col">
+                        <a href="#">Account</a>
+                        <a href="#">Ways to watch</a>
+                        <a href="#">Corporate Information</a>
+                        <a href="#">Only on Netflix</a>
+                    </div>
+                        <div class="col">
+                            <a href="#">Media Center</a>
+                            <a href="#">Terms of Use</a>
+                            <a href="#">Contact Us</a>
+                        </div>
+                </div>
+
+                    <!--Language button-->
+                    <button class="language-btn">English<img src="img/down-icon.png"></button>
+                    <p class="copyright-txt">Netflix English</p>
+        </div>
 </body>
 </html>
